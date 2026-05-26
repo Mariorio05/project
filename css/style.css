@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.container,
+.container230060006{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+.header,
+.header230060006{
+    background: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    animation: fade230060006 1s;
+}
+
+.navbar,
+.navbar230060006{
+    background: #222;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.navbar ul,
+.navbar230060006 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li,
+.navbar230060006 ul li{
+    margin: 5px;
+}
+
+.navbar ul li a,
+.navbar230060006 ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar230060006 ul li a:hover{
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.section,
+.section230060006{
+    margin-top: 40px;
+}
+
+.section h2,
+.section230060006 h2{
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+
+.produk-container,
+.produk-container230060006{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produk-box,
+.produk-box230060006{
+    background: #f7f7f7;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.produk-box:hover,
+.produk-box230060006:hover{
+    transform: translateY(-5px);
+}
+
+.produk-image,
+.produk-image230060006{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.button230060006{
+    background: darkgreen;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.button230060006:hover{
+    background: green;
+}
+
+.info-box,
+.info-box230060006{
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.8;
+}
+
+.table230060006{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.table230060006 th{
+    background: darkgreen;
+    color: white;
+    padding: 12px;
+}
+
+.table230060006 td{
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.form-box,
+.form-box230060006{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box label,
+.form-box230060006 label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.form-box input,
+.form-box230060006 input{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn,
+.btn230060006{
+    margin-top: 20px;
+    background: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn230060006:hover{
+    background: green;
+}
+
+.footer,
+.footer230060006{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background: #222;
+    color: white;
+    border-radius: 10px;
+}
+
+.judul230060006{
+    text-align: center;
+    color: darkgreen;
+}
+
+@keyframes fade230060006{
+
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .navbar ul,
+    .navbar230060006 ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .produk-container,
+    .produk-container230060006{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

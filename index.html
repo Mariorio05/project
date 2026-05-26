@@ -1,113 +1,196 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <title>Toko Aksesoris Keagamaan</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
-<body bgcolor="#f2f2f2">
+<body>
 
-    <h1 align="center" bgcolor="green">
-        <font color="darkgreen">
-            Toko Aksesoris Keagamaan
-        </font>
-    </h1>
+    <div class="container">
 
-    <hr color="darkgreen">
+        <header class="header">
 
-    <p>
-        Selamat datang di website sederhana penjualan aksesoris dan informasi keagamaan.
-    </p>
+            <h1>Toko Aksesoris Keagamaan</h1>
 
-    <h2>
-        <font color="darkgreen">Daftar Produk</font>
-    </h2>
+            <p>
+                Penjualan Aksesoris dan Informasi Keagamaan
+            </p>
 
-    <table border="1" cellpadding="10" bgcolor="white">
+        </header>
 
-        <tr>
-            <td align="center">
-                <h3>Tasbih</h3>
-                <img src="https://via.placeholder.com/150" width="150"><br><br>
-                Harga: Rp25.000
-            </td>
+        <nav class="navbar">
 
-            <td align="center">
-                <h3>Sajadah</h3>
-                <img src="https://via.placeholder.com/150" width="150"><br><br>
-                Harga: Rp80.000
-            </td>
+            <ul>
 
-            <td align="center">
-                <h3>Al-Quran</h3>
-                <img src="https://via.placeholder.com/150" width="150"><br><br>
-                Harga: Rp120.000
-            </td>
-        </tr>
+                <li><a href="index.html">Home</a></li>
 
-    </table>
+                <li><a href="tentang.html">Tentang</a></li>
 
-    <hr color="darkgreen">
+                <li><a href="galeri.html">Galeri</a></li>
 
-    <h2>
-        <font color="darkgreen">Informasi Keagamaan</font>
-    </h2>
+                <li><a href="testimoni.html">Testimoni</a></li>
 
-    <p>
-        Sholat adalah kewajiban bagi setiap umat muslim.
-        Membaca kitab suci dan membantu sesama juga penting
-        dalam kehidupan sehari-hari.
-    </p>
+                <li><a href="artikel.html">Artikel</a></li>
 
-    <hr color="darkgreen">
+                <li><a href="kontak.html">Kontak</a></li>
 
-    <h2>
-        <font color="darkgreen">Jadwal Kegiatan</font>
-    </h2>
+            </ul>
 
-    <table border="1" cellpadding="8" bgcolor="white">
+        </nav>
 
-        <tr bgcolor="darkgreen">
-            <th>
-                <font color="white">Hari</font>
-            </th>
+        <section class="section">
 
-            <th>
-                <font color="white">Kegiatan</font>
-            </th>
-        </tr>
+            <h2>Selamat Datang</h2>
 
-        <tr>
-            <td>Jumat</td>
-            <td>Pengajian</td>
-        </tr>
+            <div class="info-box">
 
-        <tr>
-            <td>Minggu</td>
-            <td>Bakti Sosial</td>
-        </tr>
+                <p>
+                    Selamat datang di website sederhana penjualan
+                    aksesoris dan informasi keagamaan.
+                </p>
 
-    </table>
+                <p>
+                    Website ini menyediakan berbagai perlengkapan
+                    ibadah dan artikel keagamaan.
+                </p>
 
-    <hr color="darkgreen">
+            </div>
 
-    <h2>
-        <font color="darkgreen">Form Pemesanan</font>
-    </h2>
+        </section>
 
-    <form>
+        <section class="section">
 
-        Nama:<br>
-        <input type="text"><br><br>
+            <h2>Daftar Produk</h2>
 
-        Produk:<br>
-        <input type="text"><br><br>
+            <div class="produk-container">
 
-        Jumlah:<br>
-        <input type="number"><br><br>
+                <div class="produk-box">
 
-        <input type="submit" value="Pesan">
+                    <h3>Tasbih</h3>
 
-    </form>
+                    <img src="img/tasbih.jpg" class="produk-image">
+
+                    <p>Harga: Rp25.000</p>
+
+                    <button class="button230060006">Beli</button>
+
+                </div>
+
+                <div class="produk-box">
+
+                    <h3>Sajadah</h3>
+
+                    <img src="img/sajadah.jpg" class="produk-image">
+
+                    <p>Harga: Rp80.000</p>
+
+                    <button class="button230060006">Beli</button>
+
+                </div>
+
+                <div class="produk-box">
+
+                    <h3>Al-Quran</h3>
+
+                    <img src="img/alquran.jpg" class="produk-image">
+
+                    <p>Harga: Rp120.000</p>
+
+                    <button class="button230060006">Beli</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <h2>Informasi Keagamaan</h2>
+
+            <div class="info-box">
+
+                <p>
+                    Sholat adalah kewajiban bagi setiap umat muslim.
+                    Membaca kitab suci dan membantu sesama juga penting
+                    dalam kehidupan sehari-hari.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <h2>Jadwal Kegiatan</h2>
+
+            <table class="table230060006">
+
+                <tr>
+
+                    <th>Hari</th>
+
+                    <th>Kegiatan</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>Jumat</td>
+
+                    <td>Pengajian</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Minggu</td>
+
+                    <td>Bakti Sosial</td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+        <section class="section">
+
+            <h2>Form Pemesanan</h2>
+
+            <form class="form-box">
+
+                <label>Nama</label>
+
+                <input type="text">
+
+                <label>Produk</label>
+
+                <input type="text">
+
+                <label>Jumlah</label>
+
+                <input type="number">
+
+                <input type="submit" value="Pesan" class="btn">
+
+            </form>
+
+        </section>
+
+        <footer class="footer">
+
+            <p>
+                2026 Toko Aksesoris Keagamaan
+            </p>
+
+        </footer>
+
+    </div>
 
 </body>
 </html>
