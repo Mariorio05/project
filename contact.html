@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak & Doa - Mario Berkah</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="brand">Mario<span>Berkah</span></div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="info.html">Renungan & Info</a></li>
+            <li><a href="toko.html">Toko Rohani</a></li>
+            <li><a href="about.html">Tentang Mario</a></li>
+            <li><a href="contact.html" class="active">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <div class="form-box">
+                <h2 style="margin-bottom: 30px;">Formulir Pelayanan & Konsultasi</h2>
+                
+                <form action="#" method="post">
+                    <div class="input-group">
+                        <label for="nama">Nama Lengkap</label>
+                        <input type="text" id="nama" name="nama">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Tujuan Formulir</label>
+                        <select id="tujuan" name="tujuan">
+                            <option value="doa">Permohonan Doa Syafaat</option>
+                            <option value="pesanan">Pertanyaan Pesanan Toko</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Metode Pertemuan (Jika Konsultasi)</label>
+                        <input type="radio" id="layanan_online" name="layanan" value="online" style="margin-right: 5px;">
+                        <label for="layanan_online" style="display: inline; font-weight: normal; margin-right: 15px;">Telepon / Zoom</label>
+                        <input type="radio" id="layanan_offline" name="layanan" value="offline" style="margin-right: 5px;">
+                        <label for="layanan_offline" style="display: inline; font-weight: normal;">Tatap Muka di Ruang Doa</label>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="jumlah">Jumlah Kehadiran (Jika Konsultasi Keluarga)</label>
+                        <input type="number" id="jumlah" name="jumlah">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="tanggal">Rencana Tanggal Pelayanan (Date)</label>
+                        <input type="date" id="tanggal" name="tanggal">
+                    </div>
+
+                    <button type="submit" class="btn-gold">Kirim Permohonan</button>
+                </form>
+            </div>
+        </main>
+
+        <aside>
+            <h3>Alamat Pusat Pelayanan</h3>
+            <p style="margin-top: 15px; color: #6b5c51;">Jl. Kasih Setia No. 7, Kota Medan, Sumatera Utara.</p>
+            <h3 style="margin-top: 30px;">Jam Operasional Toko</h3>
+            <p style="margin-top: 15px; color: #6b5c51;">Senin - Sabtu: 08.00 - 17.00 WIB<br>Minggu: Tutup (Ibadah Bersama)</p>
+        </aside>
+    </div>
+
+</body>
+</html>
